@@ -1,0 +1,21 @@
+
+header {
+    width: 100%;
+    background: white;
+    height: 80px;
+    display: flex;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    display: block;
+    margin: 0;
+    flex: 1 0 auto;
+    text-align: left;
+    color: var(--secondary);
+    font-size: 2rem;
+    font-family: 'Satisfy';
+}
