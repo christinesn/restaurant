@@ -10,12 +10,12 @@ header {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
-h1 {
-    display: block;
-    margin: 0;
+header h1 {
     flex: 1 0 auto;
     text-align: left;
-    color: var(--secondary);
-    font-size: 2rem;
-    font-family: 'Satisfy';
+}
+
+header svg {
+    height: 1.5rem;
+    fill: var(--primary);
 }

@@ -3,9 +3,13 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    padding-top: 2.5rem;
+    padding-top: 1rem;
     width: 85%;
     margin: auto;
+}
+
+.blocks h2 {
+    flex: 0 0 auto;
 }
 
 .block {
@@ -33,12 +37,4 @@
 .content {
     width: 100%;
     padding: 1rem;
-}
-
-h3 {
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    color: var(--secondary);
-    font-family: 'Outfit';
 }

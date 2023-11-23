@@ -18,11 +18,27 @@ const blocks = [{
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed orci mi. Nullam mollis massa eget lacus pretium ornare. Aenean quis turpis ac augue laoreet malesuada ut sed urna.',
     image: drinks,
     imageAlt: ""
+}, {
+    heading: 'Mediterranean cuisine made with passion',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed orci mi. Nullam mollis massa eget lacus pretium ornare. Aenean quis turpis ac augue laoreet malesuada ut sed urna.',
+    image: pizza,
+    imageAlt: ""
+}, {
+    heading: 'Contemporary fine dining',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed orci mi. Nullam mollis massa eget lacus pretium ornare. Aenean quis turpis ac augue laoreet malesuada ut sed urna.',
+    image: dining,
+    imageAlt: ""
+}, {
+    heading: 'Happy hour every weekday',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed orci mi. Nullam mollis massa eget lacus pretium ornare. Aenean quis turpis ac augue laoreet malesuada ut sed urna.',
+    image: drinks,
+    imageAlt: ""
 }]
 
 function Blocks () {
     return (
         <section className="blocks">
+            <h2>Discover Mona's Diner</h2>
             {blocks.map((block, i) => (
                 <article className="block" key={i}>
                     <div className="image-container">
