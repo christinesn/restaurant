@@ -38,11 +38,16 @@ h3 {
     color: var(--primary);
     font-family: var(--accent-font);
     font-weight: var(--accent-font-weight);
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 h1, h2, h3 {
     margin: 0;
     width: 100%;
     text-align: center;
+}
+
+svg {
+    height: 1.5rem;
+    fill: var(--primary);
 }
