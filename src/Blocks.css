@@ -4,12 +4,14 @@
     justify-content: center;
     gap: 1rem;
     padding-top: 1rem;
-    width: 85%;
+    width: 100%;
     margin: auto;
+    padding-bottom: 1.5rem;
 }
 
 .blocks h2 {
     flex: 0 0 auto;
+    margin-bottom: 0.5rem;
 }
 
 .block {
@@ -37,4 +39,36 @@
 .content {
     width: 100%;
     padding: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+    .block {
+        width: 290px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .block {
+        width: 340px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .blocks {
+        width: calc(310px * 3 + 3rem);
+    }
+
+    .block {
+        width: 310px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .blocks {
+        width: calc(340px * 3 + 3rem);
+    }
+
+    .block {
+        width: 340px;
+    }
 }

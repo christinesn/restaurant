@@ -4,7 +4,7 @@ import dining from './images/dining-table.jpg'
 import drinks from './images/drinks.jpg'
 
 const blocks = [{
-    heading: 'Mediterranean cuisine made with passion',
+    heading: 'Mediterranean cuisine',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed orci mi. Nullam mollis massa eget lacus pretium ornare. Aenean quis turpis ac augue laoreet malesuada ut sed urna.',
     image: pizza,
     imageAlt: ""
@@ -19,7 +19,7 @@ const blocks = [{
     image: drinks,
     imageAlt: ""
 }, {
-    heading: 'Mediterranean cuisine made with passion',
+    heading: 'Mediterranean cuisine',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed orci mi. Nullam mollis massa eget lacus pretium ornare. Aenean quis turpis ac augue laoreet malesuada ut sed urna.',
     image: pizza,
     imageAlt: ""

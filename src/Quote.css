@@ -18,3 +18,24 @@
     font-size: 1.5rem;
     font-style: normal;
 }
+
+@media screen and (min-width: 1024px) {
+    .quote {
+        padding-left: 5%;
+        padding-right: 6%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .quote {
+        padding-left: 10%;
+        padding-right: 12%;
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .quote {
+        padding-left: 15%;
+        padding-right: 18%;
+    }
+}

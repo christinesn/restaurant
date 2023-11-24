@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
 
+/*
+* Breakpoints:
+* sm: 640px
+* md: 768px
+* lg: 1024px
+* xl: 1280px
+* 2xl: 1536px
+*/
+
 :root {
     --primary: #1e477e;
     --accent-font: 'Oswald';
@@ -50,4 +59,19 @@ h1, h2, h3 {
 svg {
     height: 1.5rem;
     fill: var(--primary);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
 }

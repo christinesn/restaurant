@@ -1,13 +1,29 @@
 import './SlideoutMenu.css'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function SlideoutMenu () {
     const [open, setOpen] = useState(false)
+    const [viewWidth, setViewWidth] = useState(0)
 
     function toggleOpen (e) {
         e.preventDefault();
         setOpen(!open)
     }
+
+    useEffect(() => {
+        function handleResize () {
+            if (viewWidth < 1024) {
+                if (window.innerWidth >= 1024) {
+                    setOpen(false)
+                }
+            }
+
+            setViewWidth(window.innerWidth)
+        }
+
+        window.addEventListener("resize", handleResize)
+        return () => window.removeEventListener("resize", handleResize)
+    })
 
     return (
         <div className="slideout-menu">

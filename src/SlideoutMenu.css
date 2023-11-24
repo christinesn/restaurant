@@ -3,14 +3,12 @@
 }
 
 .hamburger {
-    background: none;
-    border: none;
     height: 100%;
 }
 
-nav {
+.slideout-menu nav {
     color: var(--light-text);
-    transition: 0.5s ease;
+    transition: 0.3s ease;
     position: fixed;
     top: 0;
     right: 0;
@@ -22,22 +20,11 @@ nav {
     padding: 1rem;
 }
 
-nav.open {
+.slideout-menu nav.open {
     margin-right: 0;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
-}
-
-ul li {
-    list-style-type: none;
-}
-
-nav button {
-    background: none;
-    border: none;
+.slideout-menu nav button {
     color: var(--light-text);
     font-size: 1.75rem;
     font-family: var(--accent-font);
@@ -45,11 +32,13 @@ nav button {
     margin-bottom: 0.75rem;
 }
 
-nav button:hover, nav button:active, nav button:focus {
+.slideout-menu nav button:hover,
+.slideout-menu nav button:active,
+.slideout-menu nav button:focus {
     opacity: 0.6;
 }
 
-nav svg {
+.slideout-menu nav svg {
     fill: var(--light-text);
 }
 
@@ -64,4 +53,24 @@ nav svg {
 
 .menu-escape-hatch.open {
     display: block;
+}
+
+@media screen and (min-width: 640px) {
+    .slideout-menu nav {
+        width: 65%;
+        margin-right: -65%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .slideout-menu nav {
+        width: 45%;
+        margin-right: -45%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .slideout-menu {
+        display: none;
+    }
 }
