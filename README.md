@@ -1,4 +1,4 @@
-### Restaurant
-A responsive restaurant homepage, made in ReactJS.
+## restaurant
+A responsive restaurant homepage made in ReactJS.
 
-[christinesn.github.io/restaurant](https://christinesn.github.io/restaurant)
+Live demo: [christinesn.github.io/restaurant/](https://christinesn.github.io/restaurant/)
